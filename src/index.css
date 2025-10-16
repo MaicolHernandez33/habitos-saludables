@@ -1,5 +1,5 @@
 body {
-  background-color: #f8f9fa;
+  background-color: #557a9e;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #212529;
 }
@@ -9,10 +9,12 @@ h3, h4, h5 {
 }
 
 .card {
-  transition: transform 0.2s ease;
+  background-color: #556B2F;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .card:hover {
   transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -21,4 +23,32 @@ footer {
 
 .container {
   max-width: 900px;
+}
+
+
+.categoria-salud {
+  background-color: #299e4e !important; 
+}
+.categoria-ejercicio {
+  background-color: #26446b !important;
+}
+.categoria-alimentación {
+  background-color: #3b2910 !important; 
+}
+.categoria-bienestar {
+  background-color: #673f9b !important; 
+}
+
+
+.form-check-input {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #198754;
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: #198754;
+  border-color: #198754;
+  box-shadow: 0 0 4px rgba(25, 135, 84, 0.6);
 }
